@@ -1,0 +1,31 @@
+# Ignore everything
+*
+
+# Unignore directories (needed to traverse into them)
+!*/
+
+# Unignore dataset images
+!data/
+!data/Train/
+!data/Val/
+!data/Test/
+!data/**/*.jpg
+!data/**/*.jpeg
+!data/**/*.png
+!data/**/*.JPG
+!data/**/*.JPEG
+!data/**/*.PNG
+
+!data_clean/
+!data_clean/Train/
+!data_clean/Val/
+!data_clean/Test/
+!data_clean/**/*.jpg
+!data_clean/**/*.jpeg
+!data_clean/**/*.png
+!data_clean/**/*.JPG
+!data_clean/**/*.JPEG
+!data_clean/**/*.PNG
+
+# Unignore this file itself
+!.gitignore
